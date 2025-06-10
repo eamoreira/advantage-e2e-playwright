@@ -41,7 +41,8 @@
 
 ## Evidência
 
-![Evidência do erro 403 ao tentar login com Facebook](attachment:image.png)
+![Evidência do erro 403 ao tentar login com Facebook](![image](https://github.com/user-attachments/assets/756b0607-00c7-4aad-a57f-f88ee6f11565)
+)
 
 ---
 
