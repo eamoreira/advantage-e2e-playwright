@@ -1,0 +1,35 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Playwright
+test-results/
+playwright-report/
+
+# Screenshots (if implemented)
+screenshots/
+
+# Personal notes (remove if sharing)
+personal_notes.md
+debug_log.txt
+
+# Temporary files
+temp/
+tmp/
