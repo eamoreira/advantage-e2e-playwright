@@ -26,6 +26,23 @@ pytest tests/test_order_flow.py::test_registro_usuario_simples -v
 - ✅ Pagamento SafePay
 - ✅ Navegação por categorias
 
+## 📄 Testes BDD (Gherkin)
+
+Os cenários de teste também estão descritos em arquivos `.feature` utilizando a sintaxe Gherkin, facilitando a documentação e entendimento dos fluxos de negócio:
+
+- `features/advantage_shopping.feature`
+- `features/autenticacao.feature`
+- `features/fluxo_compras.feature`
+- `features/navegacao_produtos.feature`
+
+Esses arquivos detalham os requisitos e comportamentos esperados do sistema de forma legível para todos os envolvidos no projeto.
+
+## 🐞 Bug Reports
+
+Relatórios de bugs encontrados durante a automação são documentados na pasta `bug report/`, como por exemplo:
+
+- `bug report/Erro ao Tentar Login com Facebook.md`: detalha o erro 403 ao tentar login via Facebook, incluindo passos para reprodução, resultado atual, esperado, evidências e recomendações de correção.
+
 ## 📊 Status atual
 
 **11/11 testes passando (100% sucesso)**
@@ -37,8 +54,10 @@ tests/
   test_order_flow.py     # Testes principais
 features/
   *.feature             # Cenários em Gherkin (documentação)
+bug report/
+  *.md                  # Relatórios de bugs
 conftest.py             # Configuração Playwright
-pytest.ini             # Configuração pytest
+pytest.ini              # Configuração pytest
 requirements.txt        # Dependências
 ```
 
